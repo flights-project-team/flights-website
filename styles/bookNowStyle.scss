@@ -5,11 +5,10 @@
     font-family: $font-family;
 }
 .mainContainer{
-    
+    width:80%;
     ul{
         border: 1px solid #c8c4c4;
         border-radius: 10px;
-        width:80%;
         margin: auto;
         padding-inline-start: 0px !important;
         li{
@@ -77,5 +76,28 @@
 
 }
 
+.reviewCard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $primaryColor1;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.reviewImage{
+    img{
+        width: 50px;
+
+    }
+}
+
+.reviewInfo{
+    display: flex;
+    flex-direction: column;
+    button{
+        color: red;
+    }
+}
 
 
