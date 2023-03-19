@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    list-style-type: none;
+}
+
+.navbar{
+    height:150px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.ticketBox{
+margin: 80px auto;
+    
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .ticketInfo{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    th{
+        text-align: left;
+        padding:5px;
+        color:#fff;
+        background: #ff523b;
+    }
+    td{
+        padding:10px 5px;
+        img{
+            width:100px;
+            height: 100px;
+        }
+    }
+}
+
