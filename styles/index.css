@@ -150,6 +150,7 @@ body {
   border: 4px solid white;
   align-items: center;
   padding: 55px 200px;
+  font-size: 19px;
 }
 .header .header-main__bot-welcome p {
   margin-left: 10px;
