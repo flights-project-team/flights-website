@@ -1,9 +1,3 @@
-$primaryColor1: #597f97;
-$primaryColor2: #c4cbd8;
-$primaryColor3: #6c747c;
-$primaryColor4: #183251;
-$primaryColor5: #c8c4c4;
-$font-family: Cairo;
 @mixin par-color{p{color:$primaryColor3}}
 @mixin text{h4,p{margin:0 !important}}
 
