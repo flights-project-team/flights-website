@@ -1,15 +1,22 @@
+$primaryColor1: #597f97;
+$primaryColor2: #c4cbd8;
+$primaryColor3: #6c747c;
+$primaryColor4: #183251;
+$primaryColor5: #c8c4c4;
+$font-family: Cairo;
 @mixin par-color{p{color:$primaryColor3}}
 @mixin text{h4,p{margin:0 !important}}
 
 *{
     font-family: $font-family;
 }
+
 .mainContainer{
-    width:80%;
+    width:80%;        
+    margin: auto;
     ul{
         border: 1px solid #c8c4c4;
         border-radius: 10px;
-        margin: auto;
         padding-inline-start: 0px !important;
         li{
             border-bottom: 1px solid #c8c4c4;
@@ -20,8 +27,6 @@
     }
 }
 
-.detailsCard{
-}
 
 .flightInfo{
     display: flex;
@@ -79,24 +84,39 @@
 .reviewCard{
     display: flex;
     justify-content: space-around;
+    gap: 30px;
     align-items: center;
-    background-color: $primaryColor1;
-    border-radius: 8px;
-    width: 300px;
+    background-color: rgba(232, 231, 231, 0.695);
+    border-radius: 20px;
+    width: 65%;
+    margin: auto;
+    padding:20px;
+
 }
 
 .reviewImage{
+    margin-left:-130px;
     img{
-        width: 50px;
-
+        width: 210px;
+        size: contain;
+        border-radius: 200px;
+        
     }
 }
 
 .reviewInfo{
     display: flex;
     flex-direction: column;
+    h3,p{
+    }
     button{
-        color: red;
+        width: 100px;
+        background-color: $primaryColor1;
+        font-family: $font-family;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 5px 0;
     }
 }
 
