@@ -1,0 +1,45 @@
+$primaryColor1: #597f97;
+$primaryColor2: #c4cbd8;
+$primaryColor3: #6c747c;
+$primaryColor4: #183251;
+$primaryColor5: #c8c4c4;
+
+.mainContainer{
+    
+    ul{
+        border: 1px solid #c8c4c4;
+        border-radius: 10px;
+        li{
+            border-bottom: 1px solid #c8c4c4;
+            list-style-type:none;
+        }
+    }
+}
+
+.detailsCard{
+    padding: 10px;
+}
+
+.flightInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.airline{
+    img{
+        width: 40px;
+    }
+}
+
+.time{}
+
+.duration{}
+
+.stops{}
+
+.distance{}
+
+.price{}
+
+
+

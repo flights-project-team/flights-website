@@ -1,0 +1,21 @@
+.mainContainer ul {
+  border: 1px solid #c8c4c4;
+  border-radius: 10px;
+}
+.mainContainer ul li {
+  border-bottom: 1px solid #c8c4c4;
+  list-style-type: none;
+}
+
+.detailsCard {
+  padding: 10px;
+}
+
+.flightInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.airline img {
+  width: 40px;
+}/*# sourceMappingURL=style.css.map */
