@@ -7,10 +7,6 @@ $font-family: Cairo;
 @mixin par-color{p{color:$primaryColor3}}
 @mixin text{h4,p{margin:0 !important}}
 
-*{
-    font-family: $font-family;
-}
-
 .mainContainer{
     width:80%;        
     margin: auto;
