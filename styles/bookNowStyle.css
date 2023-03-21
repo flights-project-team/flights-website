@@ -1,0 +1,205 @@
+.mainContainer {
+  width: 80%;
+  margin: auto;
+  font-family: Cairo;
+}
+.mainContainer ul {
+  border: 1px solid #c8c4c4;
+  border-radius: 10px;
+  -webkit-padding-start: 0px !important;
+          padding-inline-start: 0px !important;
+}
+.mainContainer ul li {
+  list-style-type: none;
+  margin: auto;
+  padding: 15px;
+}
+
+.flightInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Cairo;
+}
+
+.airline {
+  font-family: Cairo;
+  display: flex;
+  justify-content: space-around;
+}
+.airline img {
+  width: 80px;
+}
+.airline h4, .airline p {
+  margin: 0 !important;
+}
+
+.time {
+  font-family: Cairo;
+  margin-right: 120px;
+}
+.time p {
+  color: #6c747c;
+}
+.time h4, .time p {
+  margin: 0 !important;
+}
+
+.duration {
+  font-family: Cairo;
+}
+.duration p {
+  color: #6c747c;
+}
+.duration h4, .duration p {
+  margin: 0 !important;
+}
+
+.stops {
+  font-family: Cairo;
+}
+.stops p {
+  color: #6c747c;
+}
+.stops h4, .stops p {
+  margin: 0 !important;
+}
+
+.emmissions {
+  font-family: Cairo;
+}
+.emmissions p {
+  color: rgb(5, 84, 5);
+  background-color: rgba(171, 220, 171, 0.59);
+  border-radius: 6px;
+  padding: 0 5px;
+}
+.emmissions h4, .emmissions p {
+  margin: 0 !important;
+}
+
+.price {
+  font-family: Cairo;
+}
+.price p {
+  color: #6c747c;
+}
+.price h4, .price p {
+  margin: 0 !important;
+}
+
+.reviewImage {
+  font-family: Cairo;
+  margin-left: -130px;
+}
+.reviewImage img {
+  width: 210px;
+  size: contain;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.reviewInfo {
+  font-family: Cairo;
+  display: flex;
+  flex-direction: column;
+}
+.reviewInfo button {
+  width: 100px;
+  background-color: #597f97;
+  font-family: Cairo;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 5px 0;
+}
+
+.arrowImage {
+  font-family: Cairo;
+  margin-right: -56px;
+}
+.arrowImage img {
+  background-color: rgba(194, 194, 194, 0.42);
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 2px 0 #000;
+  border-radius: 8px;
+}
+@media (max-width: 700px) {
+  .card {
+    width: 80%;
+  }
+}
+@media (max-height: 400px) {
+  .card {
+    height: 40%;
+  }
+}
+
+.first {
+  font-family: Cairo;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  align-items: center;
+  background-color: rgba(232, 231, 231, 0.695);
+  border-radius: 20px;
+  width: 65%;
+  margin: auto;
+  padding: 20px;
+}
+@media (max-width: 700px) {
+  .first {
+    font-size: 1rem;
+  }
+}
+
+.second {
+  font-family: Cairo;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  align-items: center;
+  background-color: rgba(232, 231, 231, 0.695);
+  border-radius: 20px;
+  width: 65%;
+  margin: auto;
+  padding: 20px;
+}
+@media (max-width: 700px) {
+  .second {
+    font-size: 1rem;
+  }
+}
+
+.third {
+  font-family: Cairo;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  align-items: center;
+  background-color: rgba(232, 231, 231, 0.695);
+  border-radius: 20px;
+  width: 65%;
+  margin: auto;
+  padding: 20px;
+}
+@media (max-width: 700px) {
+  .third {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=bookNowStyle.css.map */
