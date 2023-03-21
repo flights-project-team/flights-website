@@ -1,21 +1,76 @@
+* {
+  font-family: Cairo;
+}
+
 .mainContainer ul {
   border: 1px solid #c8c4c4;
   border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  -webkit-padding-start: 0px !important;
+          padding-inline-start: 0px !important;
 }
 .mainContainer ul li {
   border-bottom: 1px solid #c8c4c4;
   list-style-type: none;
-}
-
-.detailsCard {
-  padding: 10px;
+  margin: auto;
+  padding: 15px;
 }
 
 .flightInfo {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
+.airline {
+  display: flex;
+  justify-content: space-around;
+}
 .airline img {
-  width: 40px;
+  width: 80px;
+}
+.airline h4, .airline p {
+  margin: 0 !important;
+}
+
+.time {
+  margin-right: 120px;
+}
+.time p {
+  color: #6c747c;
+}
+.time h4, .time p {
+  margin: 0 !important;
+}
+
+.duration p {
+  color: #6c747c;
+}
+.duration h4, .duration p {
+  margin: 0 !important;
+}
+
+.stops p {
+  color: #6c747c;
+}
+.stops h4, .stops p {
+  margin: 0 !important;
+}
+
+.emmissions p {
+  color: rgb(5, 84, 5);
+  background-color: rgba(171, 220, 171, 0.59);
+  border-radius: 6px;
+  padding: 0 5px;
+}
+.emmissions h4, .emmissions p {
+  margin: 0 !important;
+}
+
+.price p {
+  color: #6c747c;
+}
+.price h4, .price p {
+  margin: 0 !important;
 }/*# sourceMappingURL=style.css.map */
