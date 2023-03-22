@@ -28,7 +28,7 @@ body {
       rgb(255, 255, 255)
     ),
     url("../assets/images/aipth (2).jpg");
-  font-family: "Gilroy";
+    font-family: $font-family;
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
@@ -37,7 +37,7 @@ body {
     display: flex;
     padding-top: 10px;
     align-items: center;
-    font-family: "Gilroy";
+    font-family: $font-family;
     justify-content: space-between;
     max-width: 85vw;
     margin: auto;
@@ -101,7 +101,7 @@ body {
 
     a {
       display: inline-block;
-      font-family: "Gilroy";
+      font-family: $font-family;
       color: var(--basecolor);
       text-decoration: none;
       font-size: 16px;
@@ -109,7 +109,7 @@ body {
       color: white;
       &:hover {
         display: inline-block;
-        font-family: "Gilroy";
+        font-family: $font-family;
         text-decoration: none;
         font-size: 16px;
         margin-right: 30px;
@@ -139,7 +139,7 @@ body {
       a {
         text-decoration: none;
         font-size: 16px;
-        font-family: "Gilroy";
+        font-family: $font-family;
         margin-right: 0px;
         color: white;
 
@@ -210,7 +210,7 @@ body {
 
 .booksslider {
   margin: 60px 0px;
-  font-family: "Gilroy";
+  font-family: $font-family;
 
   .booksslider-main__country--firstitem {
     min-width: 327px;
@@ -223,6 +223,15 @@ body {
     &:hover {
       transform: translate(5px, -5px);
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    }
+    p {
+      text-align: justify;
+      padding-left: 15px;
+      padding-right: 30px;
+      font-family: $font-family;
+      font-size: 12px;
+      color: #c8c8c8;
+      line-height: 18px;
     }
     .part1 {
       background-image: linear-gradient(
@@ -264,7 +273,7 @@ body {
 .booksslider-main__title {
   font-size: 12px;
   color: white;
-  font-family: "Gilroy";
+  font-family: $font-family;
   padding-left: 50px;
   h3 {
     span {
@@ -279,7 +288,7 @@ body {
   .footer-main {
     width: 100%;
     background-color: #3b3636a8;
-    font-family: "Gilroy";
+    font-family: $font-family;
   }
 
   .footercon {
@@ -500,6 +509,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 23px;
+  font-family: $font-family;
 }
 
 .square:hover {
@@ -563,7 +573,7 @@ body {
   margin-right: 70px;
   font-size: 12px;
   cursor: pointer;
-  font-family: "merriweather";
+  font-family: $font-family;
 }
 
 @media only screen and (max-width: 1550px) {
@@ -654,7 +664,7 @@ body {
 
   .bestseller {
     margin: 60px 0px;
-    font-family: "Gilroy";
+    font-family: $font-family;
 
     .bestseller-main__cardbook--firstitem {
       background-image: url("./assets/The-Book-of-Everlasting-Things-by-Aanchal-Malhotra.jpg");

@@ -242,11 +242,10 @@ fetchData();
 
  const createTableData = (flights)=>{
     let html = '';
-    console.log(flights);
     html += `
     <tr>
     <td>
-    "AMM" - ${flights[4]}
+    AMM - ${flights[4].slice(1,4)}
     </td>
     <td>${flights[0]}</td>
     <td>${flights[1]}</td>
