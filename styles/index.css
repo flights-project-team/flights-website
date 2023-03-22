@@ -5,7 +5,7 @@ body {
 .header {
   width: 100%;
   background-image: linear-gradient(rgb(0, 0, 0), rgba(249, 249, 248, 0), rgba(249, 249, 248, 0), rgb(255, 255, 255)), url("../assets/images/aipth (2).jpg");
-  font-family: "Gilroy";
+  font-family: Cairo;
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
@@ -14,7 +14,7 @@ body {
   display: flex;
   padding-top: 10px;
   align-items: center;
-  font-family: "Gilroy";
+  font-family: Cairo;
   justify-content: space-between;
   max-width: 85vw;
   margin: auto;
@@ -68,7 +68,7 @@ body {
 }
 .header .header-main__mid--navbar__att a {
   display: inline-block;
-  font-family: "Gilroy";
+  font-family: Cairo;
   color: var(--basecolor);
   text-decoration: none;
   font-size: 16px;
@@ -77,7 +77,7 @@ body {
 }
 .header .header-main__mid--navbar__att a:hover {
   display: inline-block;
-  font-family: "Gilroy";
+  font-family: Cairo;
   text-decoration: none;
   font-size: 16px;
   margin-right: 30px;
@@ -103,7 +103,7 @@ body {
 .header .header-main__mid--navbar .header-main__mid--navbar__searchbox a {
   text-decoration: none;
   font-size: 16px;
-  font-family: "Gilroy";
+  font-family: Cairo;
   margin-right: 0px;
   color: white;
 }
@@ -156,6 +156,7 @@ body {
   font-size: 19px;
 }
 .header .header-main__bot-welcome p {
+  color: white;
   margin-left: 10px;
   -webkit-margin-before: 0em;
           margin-block-start: 0em;
@@ -165,7 +166,7 @@ body {
 
 .booksslider {
   margin: 60px 0px;
-  font-family: "Gilroy";
+  font-family: Cairo;
 }
 .booksslider .booksslider-main__country--firstitem {
   min-width: 327px;
@@ -179,6 +180,15 @@ body {
 .booksslider .booksslider-main__country--firstitem:hover {
   transform: translate(5px, -5px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+.booksslider .booksslider-main__country--firstitem p {
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 30px;
+  font-family: Cairo;
+  font-size: 12px;
+  color: #c8c8c8;
+  line-height: 18px;
 }
 .booksslider .booksslider-main__country--firstitem .part1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(249, 249, 248, 0)), url("../assets/images/marcin-nowak-iXqTqC-f6jI-unsplash.jpg");
@@ -217,7 +227,7 @@ body {
 .booksslider-main__title {
   font-size: 12px;
   color: white;
-  font-family: "Gilroy";
+  font-family: Cairo;
   padding-left: 50px;
 }
 .booksslider-main__title h3 span {
@@ -229,7 +239,7 @@ body {
 .footer .footer-main {
   width: 100%;
   background-color: rgba(59, 54, 54, 0.6588235294);
-  font-family: "Gilroy";
+  font-family: Cairo;
 }
 .footer .footercon {
   display: flex;
@@ -433,10 +443,16 @@ body {
   display: none;
 }
 
+.blogs .main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .blog-container {
   display: flex;
   justify-content: center;
   padding: 23px;
+  font-family: Cairo;
 }
 
 .square:hover {
@@ -455,6 +471,15 @@ body {
 .square img {
   width: 460px;
 }
+.square p {
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Cairo;
+  font-size: 12px;
+  color: #c8c8c8;
+  line-height: 18px;
+}
 
 .mask {
   clip: rect(0px, 460px, 220px, 0px);
@@ -471,16 +496,6 @@ body {
   font-size: 24px;
 }
 
-p {
-  text-align: justify;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-family: Cairo;
-  font-size: 12px;
-  color: #C8C8C8;
-  line-height: 18px;
-}
-
 .blog-button {
   background-color: #597f97;
   color: white;
@@ -495,5 +510,268 @@ p {
   margin-right: 70px;
   font-size: 12px;
   cursor: pointer;
-  font-family: "merriweather";
+  font-family: Cairo;
+}
+
+@media only screen and (max-width: 1550px) {
+  /* header*/
+  .blogs .main {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .blogs .main .square {
+    width: 330.2px;
+    height: 450px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 18px 40px rgba(131, 133, 137, 0.99);
+    transition: all 0.3s ease;
+  }
+  .blogs .main .square img {
+    width: 330.2px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  /* header*/
+  .header {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+  }
+  .header .header-main__top--navbar {
+    display: none !important;
+  }
+  .header .header-main__mid {
+    display: none !important;
+  }
+  .header .header-main__top--mobile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .header .header-main__top--mobile .header-main__top--mobile__icon {
+    margin-top: 5px;
+  }
+  .header .header-main__bot-welcome {
+    display: flex;
+    max-width: 85vw;
+    color: white;
+    border: 4px solid white;
+    align-items: center;
+    padding: 0px 40px;
+  }
+  .header .header-main__bot-welcome p {
+    display: none;
+  }
+  .blogs .main {
+    display: block;
+    justify-content: space-evenly;
+  }
+  .blogs .main .square {
+    width: 344.2px;
+    height: 450px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 18px 40px rgba(131, 133, 137, 0.99);
+    transition: all 0.3s ease;
+  }
+  .blogs .main .square img {
+    width: 344.2px;
+  }
+  /* best */
+  .bestseller {
+    margin: 60px 0px;
+    font-family: Cairo;
+  }
+  .bestseller .bestseller-main__cardbook--firstitem {
+    background-image: url("./assets/The-Book-of-Everlasting-Things-by-Aanchal-Malhotra.jpg");
+    min-width: 200px;
+    height: 295px;
+    border-radius: 70px;
+    outline: 4px solid black;
+    background-size: cover;
+    box-shadow: 0px 8px 27px -2px #c2c2c2;
+    margin-right: 20px;
+  }
+  .bestseller .bestseller-main__cardbook--firstitem:hover {
+    box-shadow: 0px 8px 27px -2px #3f6ba1;
+  }
+  .bestseller .bestseller-main__cardbook--secitem {
+    background-image: url("./assets/The-House-of-Eve-by-Sadeqa-Johnson1.jpg");
+    min-width: 212px;
+    height: 295px;
+    border-radius: 70px;
+    outline: 4px solid black;
+    background-size: cover;
+    box-shadow: 0px 8px 27px -2px #c2c2c2;
+    margin-right: 20px;
+  }
+  .bestseller .bestseller-main__cardbook--secitem:hover {
+    box-shadow: 0px 8px 27px -2px #3f6ba1;
+  }
+  .bestseller .bestseller-main__cardbook--therditem {
+    background-image: url("./assets/The-Lipstick-Bureau1.jpg");
+    min-width: 212px;
+    height: 295px;
+    border-radius: 70px;
+    outline: 4px solid black;
+    background-size: cover;
+    box-shadow: 0px 8px 27px -2px #c2c2c2;
+    margin-right: 20px;
+  }
+  .bestseller .bestseller-main__cardbook--therditem:hover {
+    box-shadow: 0px 8px 27px -2px #3f6ba1;
+  }
+  .bestseller .bestseller-main__cardbook {
+    display: flex;
+    background-color: rgba(59, 54, 54, 0.6588235294);
+    max-width: 90vw;
+    margin: auto;
+    padding: 20px;
+    border-radius: 46px;
+    overflow: auto;
+    justify-content: flex-start;
+  }
+  /* footer*/
+  .booksslider-main__country {
+    display: flex;
+    max-width: 84vw;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px;
+    overflow: auto;
+  }
+  .booksslider-main__country::-webkit-scrollbar {
+    display: none;
+  }
+  .footer .footer-main__icons {
+    padding: 0px;
+    max-width: 90vw;
+    margin: auto;
+    padding-top: 0px;
+  }
+  .footer .footer-main__icons--top {
+    display: block;
+    padding-bottom: 30px;
+  }
+  .footer .footer-main__icons--top--firstitem {
+    display: none;
+  }
+  .footer .footer-main__icons--top--item {
+    width: 100%;
+    color: #ffffff;
+    font-size: 13px;
+    padding-top: 31px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 30px;
+  }
+  .footer .footer-main__icons--top--item p {
+    font-size: 16px;
+    color: #ffffff;
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+    padding-bottom: 30px;
+  }
+  .footer .footer-main__icons-hr {
+    display: none;
+  }
+  .footer .footer-main__icons--bot--hr {
+    display: none;
+  }
+  .footer .footer-main__icons--bot--navbar__firstdiv {
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
+  }
+  .footer .footer-main__icons--top--contact {
+    display: flex;
+  }
+  .footer .footer-main__icons--top--contact select {
+    margin-left: 5px;
+    margin-right: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .footer .footer-main__icons--top--contact select option {
+    background-color: rgba(0, 0, 0, 0.231);
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  .footer .footer-main__icons--bot--navbar__secdiv {
+    display: block;
+    width: 100%;
+  }
+  .footer .footer-main__icons--bot--navbar__secdiv img {
+    margin-left: 23px;
+  }
+  .footer nav {
+    display: flex;
+  }
+  .footer .footer-main__icons--bot--navbar {
+    display: block;
+    padding-top: 0px;
+    text-align: left;
+    justify-content: space-between;
+    border-top: 0px;
+  }
+  .footer .footer-main__icons--bot--navbar a {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 0px;
+    color: #ffffff;
+    padding-bottom: 10px;
+  }
+  .footer .footer-main__icons--bot--navbar a img {
+    color: #ffffff;
+    margin-right: 0px;
+  }
+  .footer .footer-main__icons--top--item--Badges img {
+    margin-right: 5px;
+  }
+  .footer .footer-main__icons--bot {
+    border-top: 0px;
+  }
+  .footer .footer-main__socialmedia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+  }
+  .footer .footer-main__socialmedia p {
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+  }
+  .footer .footer-main__socialmedia img {
+    padding-top: 20px;
+    padding-right: 48px;
+  }
+  .footer .footer-main__mobbackbox {
+    display: block;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .footer .footer-main__backbox {
+    display: none;
+  }
+  .footer .footer-main__icons--bot--navbar__secdiv--main {
+    display: block;
+    padding-top: 20px;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=index.css.map */

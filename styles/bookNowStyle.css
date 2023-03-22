@@ -130,6 +130,13 @@
   padding: 0;
 }
 
+.bookNowBtn {
+  border: none;
+  border-radius: 6px;
+  padding: 15px 10px;
+  font-family: Cairo;
+}
+
 .card {
   display: flex;
   position: absolute;
@@ -156,16 +163,15 @@
   justify-content: space-around;
   gap: 30px;
   align-items: center;
-  background-color: rgba(232, 231, 231, 0.695);
+  background-color: rgb(232, 231, 231);
   border-radius: 20px;
   width: 65%;
   margin: auto;
   padding: 20px;
 }
-@media (max-width: 700px) {
-  .first {
-    font-size: 1rem;
-  }
+.first p {
+  color: #000;
+  margin-bottom: 10px;
 }
 
 .second {
@@ -174,16 +180,15 @@
   justify-content: space-around;
   gap: 30px;
   align-items: center;
-  background-color: rgba(232, 231, 231, 0.695);
+  background-color: rgb(232, 231, 231);
   border-radius: 20px;
   width: 65%;
   margin: auto;
   padding: 20px;
 }
-@media (max-width: 700px) {
-  .second {
-    font-size: 1rem;
-  }
+.second p {
+  color: #000;
+  margin-bottom: 10px;
 }
 
 .third {
@@ -192,14 +197,85 @@
   justify-content: space-around;
   gap: 30px;
   align-items: center;
-  background-color: rgba(232, 231, 231, 0.695);
+  background-color: rgb(232, 231, 231);
   border-radius: 20px;
   width: 65%;
   margin: auto;
   padding: 20px;
 }
-@media (max-width: 700px) {
+.third p {
+  color: #000;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .flightInfo {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Cairo;
+  }
+  .first {
+    font-family: Cairo;
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    align-items: center;
+    background-color: rgb(232, 231, 231);
+    border-radius: 20px;
+    width: 100%;
+    padding: 0px;
+  }
+  .second {
+    font-family: Cairo;
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    align-items: center;
+    background-color: rgb(232, 231, 231);
+    border-radius: 20px;
+    width: 100%;
+    padding: 0px;
+  }
   .third {
-    font-size: 1rem;
+    font-family: Cairo;
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    align-items: center;
+    background-color: rgb(232, 231, 231);
+    border-radius: 20px;
+    width: 100%;
+    padding: 0px;
+  }
+  .card {
+    width: 100%;
+  }
+  .reviewImage {
+    font-family: Cairo;
+    margin-left: -31px;
+  }
+  .reviewImage img {
+    width: 135px;
+    size: contain;
+    border-radius: 50%;
+    margin-right: -21px;
+  }
+  .reviewInfo {
+    font-family: Cairo;
+    display: flex;
+    flex-direction: column;
+    width: 214px;
+    height: 100%;
+  }
+  .arrowImage {
+    font-family: Cairo;
+    margin-right: -56px;
+  }
+  .arrowImage img {
+    background-color: rgba(194, 194, 194, 0.42);
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 34px;
   }
 }/*# sourceMappingURL=bookNowStyle.css.map */
